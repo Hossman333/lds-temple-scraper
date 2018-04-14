@@ -1,0 +1,23 @@
+{
+  "name": "reasonml-temple-scraper",
+  "version": "0.1.0",
+  "scripts": {
+    "build": "bsb -make-world",
+    "start": "bsb -make-world -w",
+    "clean": "bsb -clean-world"
+  },
+  "keywords": [
+    "BuckleScript"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "bs-platform": "^2.2.3"
+  },
+  "dependencies": {
+    "@glennsl/bs-json": "^1.2.0",
+    "bs-node": "github:buckletypes/bs-node",
+    "cheerio": "^1.0.0-rc.2",
+    "request": "^2.85.0"
+  }
+}
